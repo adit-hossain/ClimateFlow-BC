@@ -4,6 +4,8 @@ An end-to-end environmental data science project using **real 2020 observations 
 
 > Built by a UBC Statistics and Environmental Science student. This is a retrospective portfolio analysis, not an operational flood forecasting system.
 
+[Live Streamlit Dashboard](https://j7wndxxdfa8vc8dvc3ufgj.streamlit.app/) · [GitHub Repository](https://github.com/adit-hossain/ClimateFlow-BC)
+
 ## At a glance
 
 | | |
