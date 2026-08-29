@@ -1,0 +1,25 @@
+{
+  "dataset": "Real 2020 Squamish climate and streamflow data",
+  "modeling_rows": 349,
+  "train_rows": 279,
+  "test_rows": 70,
+  "train_start": "2020-01-08",
+  "train_end": "2020-10-21",
+  "test_start": "2020-10-22",
+  "test_end": "2020-12-30",
+  "persistence_baseline": {
+    "MAE": 53.15285714285715,
+    "RMSE": 109.59690884587681,
+    "R2": 0.42618380268759615
+  },
+  "linear_regression": {
+    "MAE": 60.86334927178984,
+    "RMSE": 83.97366953077847,
+    "R2": 0.6631299072892749
+  },
+  "random_forest": {
+    "MAE": 51.56372174589147,
+    "RMSE": 92.58634653245217,
+    "R2": 0.5904847425854911
+  }
+}

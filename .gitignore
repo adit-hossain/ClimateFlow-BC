@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets and local settings
+.streamlit/secrets.toml
+
+# Large original downloads stay local; folder notes remain trackable
+data/raw/*
+!data/raw/climate/
+data/raw/climate/*
+!data/raw/climate/README.txt
+!data/raw/streamflow/
+data/raw/streamflow/*
+!data/raw/streamflow/README.txt
+
+# Models can always be regenerated from processed data
+outputs/models/*.joblib
